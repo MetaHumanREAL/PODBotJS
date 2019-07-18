@@ -424,4 +424,4 @@ bot.on('guildMemberRemove', (guildMember) => {
     guildMember.guild.channels.get('586966311691878416').send(embed);
 });
 
-bot.login(token);
+bot.login(process.env.BOT_TOKEN);
